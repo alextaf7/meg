@@ -6,7 +6,6 @@ from sklearn.neighbors import KNeighborsClassifier
 
 N_JOBS = -1
 
-
 class Resampler(BaseEstimator):
     ''' Resamples X and y to every 100th sample '''
     def fit_resample(self, X, y):
